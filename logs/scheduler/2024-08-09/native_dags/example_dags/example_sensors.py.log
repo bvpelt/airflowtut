@@ -1,0 +1,277 @@
+[2024-08-09T19:42:40.022+0200] {processor.py:161} INFO - Started process (PID=17663) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:42:40.023+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:42:40.025+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:42:40.024+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:42:40.037+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:42:40.535+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:42:40.534+0200] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-08-09T19:42:40.677+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:42:40.676+0200] {override.py:1858} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-08-09T19:42:40.766+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:42:40.765+0200] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-08-09T19:42:40.767+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:42:40.767+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:42:40.797+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:42:40.797+0200] {dag.py:3111} INFO - Creating ORM DAG for example_sensors
+[2024-08-09T19:42:40.798+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:42:40.798+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:42:40.939+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.924 seconds
+[2024-08-09T19:43:57.135+0200] {processor.py:161} INFO - Started process (PID=17891) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:43:57.136+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:43:57.137+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:43:57.136+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:43:57.142+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:43:57.154+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:43:57.154+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:43:57.161+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:43:57.161+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:43:57.236+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2024-08-09T19:44:50.769+0200] {processor.py:161} INFO - Started process (PID=18190) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:44:50.770+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:44:50.771+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:44:50.771+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:44:50.776+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:44:50.788+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:44:50.788+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:44:50.794+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:44:50.794+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:44:50.924+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.157 seconds
+[2024-08-09T19:45:46.128+0200] {processor.py:161} INFO - Started process (PID=18309) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:45:46.129+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:45:46.130+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:45:46.130+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:45:46.135+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:45:46.147+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:45:46.147+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:45:46.154+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:45:46.153+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:45:46.226+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2024-08-09T19:46:35.112+0200] {processor.py:161} INFO - Started process (PID=18634) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:46:35.115+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:46:35.119+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:46:35.118+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:46:35.132+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:46:35.150+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:46:35.150+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:46:35.159+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:46:35.158+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:46:35.231+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.133 seconds
+[2024-08-09T19:47:29.045+0200] {processor.py:161} INFO - Started process (PID=18931) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:47:29.046+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:47:29.047+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:47:29.046+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:47:29.052+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:47:29.065+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:47:29.065+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:47:29.072+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:47:29.072+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:47:29.161+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.119 seconds
+[2024-08-09T19:48:19.496+0200] {processor.py:161} INFO - Started process (PID=19067) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:48:19.505+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:48:19.506+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:48:19.505+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:48:19.511+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:48:19.525+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:48:19.525+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:48:19.533+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:48:19.533+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:48:19.615+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2024-08-09T19:49:09.284+0200] {processor.py:161} INFO - Started process (PID=19146) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:49:09.295+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:49:09.299+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:49:09.298+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:49:09.304+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:49:09.317+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:49:09.317+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:49:09.324+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:49:09.324+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:49:09.421+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.140 seconds
+[2024-08-09T19:50:01.179+0200] {processor.py:161} INFO - Started process (PID=19313) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:50:01.179+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:50:01.180+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:50:01.180+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:50:01.185+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:50:01.197+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:50:01.197+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:50:01.204+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:50:01.204+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:50:01.299+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2024-08-09T19:50:53.774+0200] {processor.py:161} INFO - Started process (PID=19407) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:50:53.775+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:50:53.776+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:50:53.775+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:50:53.781+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:50:53.793+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:50:53.793+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:50:53.800+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:50:53.800+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:50:53.903+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.132 seconds
+[2024-08-09T19:51:44.337+0200] {processor.py:161} INFO - Started process (PID=19553) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:51:44.338+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:51:44.338+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:51:44.338+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:51:44.343+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:51:44.355+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:51:44.355+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:51:44.361+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:51:44.361+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:51:44.461+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.127 seconds
+[2024-08-09T19:52:40.906+0200] {processor.py:161} INFO - Started process (PID=20047) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:52:40.907+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:52:40.909+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:52:40.908+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:52:40.919+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:52:40.938+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:52:40.937+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:52:40.945+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:52:40.945+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:52:41.070+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.179 seconds
+[2024-08-09T19:53:38.064+0200] {processor.py:161} INFO - Started process (PID=20107) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:53:38.064+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:53:38.065+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:53:38.065+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:53:38.070+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:53:38.082+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:53:38.081+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:53:38.088+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:53:38.088+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:53:38.161+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2024-08-09T19:54:31.166+0200] {processor.py:161} INFO - Started process (PID=20175) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:54:31.166+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:54:31.167+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:54:31.167+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:54:31.172+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:54:31.184+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:54:31.184+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:54:31.190+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:54:31.190+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:54:31.282+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.119 seconds
+[2024-08-09T19:55:22.052+0200] {processor.py:161} INFO - Started process (PID=20274) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:55:22.094+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:55:22.096+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:55:22.095+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:55:22.103+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:55:22.115+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:55:22.114+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:55:22.121+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:55:22.120+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:55:22.193+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.144 seconds
+[2024-08-09T19:56:09.226+0200] {processor.py:161} INFO - Started process (PID=20333) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:56:09.226+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:56:09.227+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:56:09.227+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:56:09.232+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:56:09.245+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:56:09.245+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:56:09.252+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:56:09.252+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:56:09.347+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.125 seconds
+[2024-08-09T19:56:58.366+0200] {processor.py:161} INFO - Started process (PID=20391) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:56:58.366+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:56:58.367+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:56:58.367+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:56:58.372+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:56:58.383+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:56:58.383+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:56:58.390+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:56:58.389+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:56:58.512+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.150 seconds
+[2024-08-09T19:57:49.346+0200] {processor.py:161} INFO - Started process (PID=20516) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:57:49.346+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:57:49.347+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:57:49.347+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:57:49.352+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:57:49.364+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:57:49.364+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:57:49.370+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:57:49.370+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:57:49.467+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2024-08-09T19:58:44.283+0200] {processor.py:161} INFO - Started process (PID=20644) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:58:44.302+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:58:44.303+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:58:44.303+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:58:44.310+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:58:44.324+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:58:44.324+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:58:44.332+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:58:44.332+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:58:44.535+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.255 seconds
+[2024-08-09T19:59:40.930+0200] {processor.py:161} INFO - Started process (PID=20716) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:59:40.931+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T19:59:40.931+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:59:40.931+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:59:40.936+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T19:59:40.949+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:59:40.949+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T19:59:40.955+0200] {logging_mixin.py:188} INFO - [2024-08-09T19:59:40.955+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T19:59:41.064+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.137 seconds
+[2024-08-09T20:00:31.484+0200] {processor.py:161} INFO - Started process (PID=20791) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:00:31.484+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:00:31.485+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:00:31.485+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:00:31.490+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:00:31.502+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:00:31.501+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:00:31.508+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:00:31.508+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:00:31.706+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.225 seconds
+[2024-08-09T20:01:21.791+0200] {processor.py:161} INFO - Started process (PID=20852) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:01:21.792+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:01:21.793+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:01:21.792+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:01:21.798+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:01:21.810+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:01:21.809+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:01:21.816+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:01:21.816+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:01:21.908+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2024-08-09T20:02:11.621+0200] {processor.py:161} INFO - Started process (PID=20982) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:02:11.621+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:02:11.622+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:02:11.622+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:02:11.627+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:02:11.640+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:02:11.640+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:02:11.647+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:02:11.647+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:02:11.738+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.121 seconds
+[2024-08-09T20:03:07.241+0200] {processor.py:161} INFO - Started process (PID=21077) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:03:07.242+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:03:07.242+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:03:07.242+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:03:07.247+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:03:07.259+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:03:07.259+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:03:07.265+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:03:07.265+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:03:07.356+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-08-09T20:04:03.535+0200] {processor.py:161} INFO - Started process (PID=21135) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:04:03.536+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:04:03.537+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:04:03.537+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:04:03.542+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:04:03.553+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:04:03.553+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:04:03.560+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:04:03.559+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:04:03.652+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2024-08-09T20:04:53.873+0200] {processor.py:161} INFO - Started process (PID=21254) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:04:53.874+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:04:53.874+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:04:53.874+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:04:53.879+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:04:53.891+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:04:53.891+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:04:53.897+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:04:53.897+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:04:53.975+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2024-08-09T20:05:49.486+0200] {processor.py:161} INFO - Started process (PID=21379) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:05:49.497+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:05:49.497+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:05:49.497+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:05:49.503+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:05:49.517+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:05:49.517+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:05:49.524+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:05:49.524+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:05:49.586+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.103 seconds
+[2024-08-09T20:06:46.369+0200] {processor.py:161} INFO - Started process (PID=21472) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:06:46.381+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:06:46.382+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:06:46.382+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:06:46.388+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:06:46.402+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:06:46.402+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:06:46.408+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:06:46.408+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:06:46.485+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-08-09T20:07:38.904+0200] {processor.py:161} INFO - Started process (PID=21600) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:07:38.904+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:07:38.905+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:07:38.905+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:07:38.910+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:07:38.922+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:07:38.922+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:07:38.928+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:07:38.928+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:07:39.037+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.136 seconds
+[2024-08-09T20:08:27.869+0200] {processor.py:161} INFO - Started process (PID=21682) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:08:27.935+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:08:27.938+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:08:27.938+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:08:27.965+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:08:27.992+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:08:27.992+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:08:28.000+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:08:28.000+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:08:28.097+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.231 seconds
+[2024-08-09T20:09:22.013+0200] {processor.py:161} INFO - Started process (PID=21742) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:09:22.026+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:09:22.027+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:09:22.027+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:09:22.034+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:09:22.050+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:09:22.050+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:09:22.058+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:09:22.058+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:09:22.124+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.114 seconds
+[2024-08-09T20:10:10.272+0200] {processor.py:161} INFO - Started process (PID=21811) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:10:10.282+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:10:10.286+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:10:10.285+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:10:10.306+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:10:10.327+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:10:10.327+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:10:10.335+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:10:10.334+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:10:10.415+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.158 seconds
+[2024-08-09T20:11:00.845+0200] {processor.py:161} INFO - Started process (PID=21868) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:11:00.846+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:11:00.846+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:11:00.846+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:11:00.851+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:11:00.863+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:11:00.863+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:11:00.870+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:11:00.870+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:11:00.936+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.094 seconds
+[2024-08-09T20:11:50.592+0200] {processor.py:161} INFO - Started process (PID=21919) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:11:50.595+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:11:50.599+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:11:50.598+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:11:50.614+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:11:50.633+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:11:50.633+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:11:50.641+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:11:50.640+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:11:50.745+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.168 seconds
+[2024-08-09T20:12:40.165+0200] {processor.py:161} INFO - Started process (PID=22030) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:12:40.166+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:12:40.167+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:12:40.167+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:12:40.173+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:12:40.188+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:12:40.188+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:12:40.196+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:12:40.196+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:12:40.284+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2024-08-09T20:13:34.953+0200] {processor.py:161} INFO - Started process (PID=22117) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:13:34.954+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:13:34.954+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:13:34.954+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:13:34.960+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:13:34.971+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:13:34.971+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:13:34.978+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:13:34.978+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:13:35.091+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.141 seconds
+[2024-08-09T20:14:28.554+0200] {processor.py:161} INFO - Started process (PID=22196) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:14:28.555+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:14:28.555+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:14:28.555+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:14:28.561+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:14:28.573+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:14:28.573+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:14:28.580+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:14:28.580+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:14:28.658+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2024-08-09T20:15:14.690+0200] {processor.py:161} INFO - Started process (PID=22272) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:15:14.690+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:15:14.691+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:15:14.691+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:15:14.696+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:15:14.708+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:15:14.708+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:15:14.714+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:15:14.714+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:15:14.852+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.165 seconds
+[2024-08-09T20:16:04.170+0200] {processor.py:161} INFO - Started process (PID=22329) to work on /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:16:04.189+0200] {processor.py:830} INFO - Processing file /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-09T20:16:04.190+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:16:04.190+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:16:04.197+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-09T20:16:04.208+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:16:04.208+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-09T20:16:04.214+0200] {logging_mixin.py:188} INFO - [2024-08-09T20:16:04.214+0200] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-09T20:16:04.292+0200] {processor.py:183} INFO - Processing /home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds

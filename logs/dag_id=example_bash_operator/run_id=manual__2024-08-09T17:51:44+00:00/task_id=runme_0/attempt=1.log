@@ -1,0 +1,21 @@
+[2024-08-09T19:51:57.855+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-09T19:51:57.871+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_bash_operator.runme_0 manual__2024-08-09T17:51:44+00:00 [queued]>
+[2024-08-09T19:51:57.876+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_bash_operator.runme_0 manual__2024-08-09T17:51:44+00:00 [queued]>
+[2024-08-09T19:51:57.876+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-08-09T19:51:57.995+0200] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): runme_0> on 2024-08-09 17:51:44+00:00
+[2024-08-09T19:51:58.000+0200] {standard_task_runner.py:64} INFO - Started process 19673 to run task
+[2024-08-09T19:51:58.001+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_0', 'manual__2024-08-09T17:51:44+00:00', '--job-id', '8', '--raw', '--subdir', '/home/bvpelt/Develop/airflowtut/py_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg-path', '/tmp/tmp7br0650l']
+[2024-08-09T19:51:58.002+0200] {standard_task_runner.py:91} INFO - Job 8: Subtask runme_0
+[2024-08-09T19:51:58.139+0200] {task_command.py:426} INFO - Running <TaskInstance: example_bash_operator.runme_0 manual__2024-08-09T17:51:44+00:00 [running]> on host pluto
+[2024-08-09T19:51:58.361+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_bash_operator' AIRFLOW_CTX_TASK_ID='runme_0' AIRFLOW_CTX_EXECUTION_DATE='2024-08-09T17:51:44+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-09T17:51:44+00:00'
+[2024-08-09T19:51:58.362+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-09T19:51:58.363+0200] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-08-09T19:51:58.364+0200] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "example_bash_operator__runme_0__20240809" && sleep 1']
+[2024-08-09T19:51:58.372+0200] {subprocess.py:86} INFO - Output:
+[2024-08-09T19:51:58.373+0200] {subprocess.py:93} INFO - example_bash_operator__runme_0__20240809
+[2024-08-09T19:51:59.375+0200] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-08-09T19:51:59.376+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-09T19:51:59.481+0200] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=example_bash_operator, task_id=runme_0, run_id=manual__2024-08-09T17:51:44+00:00, execution_date=20240809T175144, start_date=20240809T175157, end_date=20240809T175159
+[2024-08-09T19:51:59.619+0200] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-09T19:51:59.661+0200] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-09T19:51:59.661+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
