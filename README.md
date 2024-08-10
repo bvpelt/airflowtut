@@ -14,7 +14,9 @@ In Airflow workflow is defined as [DAG (Directed Acyclic Graph)](https://airflow
 
 DAG is a way to define relations and dependencies between tasks.
 
-Task is a unit of work in a [DAG](./dag.png) and is written in python
+Task is a unit of work in a DAG and is written in python
+
+![DAG](image.png)
 
 Operators define what is actually done in a task. Examples of operators:
 - BashOperator
@@ -22,13 +24,14 @@ Operators define what is actually done in a task. Examples of operators:
 - ...
 - Customised Operator
 
-Each task is an implementation of an operator. [see picture](./dagoperator.png)
+Each task is an implementation of an operator. 
+
+![Relation DAG, Task, Operator](./dagoperator.png)
 
 - Execution Date is the logic date and time which the *DAG Run* and *Task Instance* are running for
 - Task Instance run of a task at a specific date/time the execution date
-- Dag Run is an instantiation of a DAG containing Task Instances that run for specific execution date
+- DAG Run is an instantiation of a DAG containing Task Instances that run for specific execution date
 
-[see picture](./execution.png)
 ![Relation Execution Data, Task Instance, DAG Run](./execution.png)
 
 ## Index
