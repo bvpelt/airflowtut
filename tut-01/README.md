@@ -1,4 +1,4 @@
-# airflowtut
+# Airflow tutorial
 
 ## Setup
 
