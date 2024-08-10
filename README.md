@@ -2,6 +2,7 @@
 Tutorial airflow
 timeline: 11:00
 
+[DAG (Directed Acyclic Graph)](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html)
 
 ## Setup
 
