@@ -29,6 +29,7 @@ Each task is an implementation of an operator. [see picture](./dagoperator.png)
 - Dag Run is an instantiation of a DAG containing Task Instances that run for specific execution date
 
 [see picture](./execution.png)
+![Relation Execution Data, Task Instance, DAG Run](./execution.png)
 
 ## Index
 - [airflow tutorial](tut-01/README.md)
