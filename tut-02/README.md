@@ -181,7 +181,7 @@ a92d73788649   apache/airflow:2.9.3   "/usr/bin/dumb-init …"   36 seconds ago 
 a6ef16940443   postgres:13            "docker-entrypoint.s…"   4 minutes ago    Up 4 minutes (healthy)    5432/tcp                 tut-02_postgres_1
 ```
 
-Open airflow webapp at http://0.0.0.0:8080 and loging with default credentials admin:admin
+Open airflow webapp at http://0.0.0.0:8080 and loging with default credentials airflow:airflow
 
 Select DAG example_bash_operator and start it
 [opened webserver after running DAG example_bash_operator](./webserver.png)
