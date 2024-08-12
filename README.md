@@ -1,6 +1,6 @@
 # Airflow tutorial
 Tutorial airflow
-timeline: 17:00
+timeline: 21:00
 
 - Airflow starts in 2014 bij airbnb from beginning an opensource project
 - Purpose: manage complex workflows
